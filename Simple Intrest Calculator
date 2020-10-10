@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class SimpleIntrest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Principal sum : ");
+		double P = sc.nextDouble();
+		
+		System.out.println("Enter the Rate(%) : ");
+		double R = sc.nextDouble();
+		
+		System.out.println("Enter the time period(in years) : ");
+		double T = sc.nextDouble();
+		
+		double SI;
+		
+		SI = (P * R * T)/100;
+		System.out.println("The Simple Intrest is : " + SI);
+
+	}
+
+}
